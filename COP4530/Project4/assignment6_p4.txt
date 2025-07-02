@@ -1,0 +1,12 @@
+assignment6_p4.txt:
+
+1) Analyze the worst-case time complexity of the private member function makeEmpty(BinaryNode* & t) of the binary expression tree.
+The makeEmpty(BinaryNode* & t) has O(n) complexity, as it visits each node on the tree once in order to delete it. All constant
+time operations, such as assignment and comparisons have O(1) complexity and are negligible. Therefore, the complexity is O(n),
+where n is the number of nodes in the tree.
+
+2) Analyze the worst-case time complexity of the function you write to convert a postfix expression into infix expression.
+The printInfixExpression(BinaryNode* n) has O(n) complexity, as it visits each node on the tree once in order to print it.
+For each element, it performs constant time operations, (including the precedence function, which has O(1) complexity) which all 
+have O(1) complexity and are negligible. Therefore, the complexity is O(n), where n is the number of nodes in the tree.
+

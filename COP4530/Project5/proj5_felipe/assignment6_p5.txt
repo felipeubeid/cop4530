@@ -1,0 +1,12 @@
+assignment6_p5.txt:
+
+1) Analyze the worst-case time complexity of the private member function rehash() of HashTable.
+rehash() has O(Nˆ2) complexity. It mainly  consists of a loop, which has O(N) complecity, with another loop inside it, which also
+has O(N) complexity. Therefore, it has O(Nˆ2) complexity, where N is the total number of elements. resize and makeEmpty each have
+O(N) complexity, which is negligible since they are of lower order than O(Nˆ2).
+
+2) Analyze the worst-case time complexity of the member function removeUser(const string & k) of PassServer. Given your answer in the Big-O notation.
+removeUser calls the remove function from hashtable, which consists of a loop, which has O(N) complexity, where N is the number of
+elements in the bucket. The other operations have constant time complexity of O(1), and are negligible. Therefore, the complexity
+for removeUser is O(N).
+

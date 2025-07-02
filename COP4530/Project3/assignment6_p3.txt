@@ -1,0 +1,13 @@
+assignment6_p3.txt:
+
+1) Analyzing the worst-case time complexity of the member function clear() of Stack.
+The clear() function of Stack has O(n) complexity, as it uses deque's clear() function, which has O(n) complexity, where n
+is the number of elements in the deque.
+
+2) Analyzing the worst-case time complexity of the function you developed to evaluate a postfix arithmetic expression.
+The function to avaluate a postfix arithmetic expression also has O(n) complexity. The operations outside the loop have
+O(1) complexity, while the operations inside the loop also have O(1) complexity. The loop has complexity O(n), where n is
+the amount of iterations it goes through. Therefore, the constant time operations outside and inside of it are negligible,
+as O(1) has a lower order than O(n), making the function's complexity O(n).
+
+
