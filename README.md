@@ -13,12 +13,12 @@ The projects demonstrate understanding of core data structures, algorithms, and 
 3. Stack and its applications
    1. Implemented a generic stack container as an adaptor class template
    2. Implemented a program that converts an infix expression to a postfix expression, and evaluates the postfix expression using the stack container developed
-4.  Binary tree and its applications
+4. Binary tree and its applications
    1. Implemented a binary expression tree and used it to convert postfix expressions into infix expressions
-5. Hash tables and its applications
+6. Hash tables and its applications
    1. Implemented a hash table ADT and other supporting user interfaces
    2. Develop a simple password server program
-6. Analyzed the time complexity of certain functions from projects 2-5
+7. Analyzed the time complexity of certain functions from projects 2-5
 
 ## License:
 
